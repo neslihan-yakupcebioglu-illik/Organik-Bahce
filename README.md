@@ -1,2 +1,2 @@
-# Organik-Bah-e
+# Organik-Bahce
 Üreticiden tüketiciye ata tohumlarından üretilen organik ürünlerin satışı hedeflenmektedir.
