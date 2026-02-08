@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>e_Ticaret.Mvc</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\scss\bootstrap\NewFolder\**" />
+    <Content Remove="wwwroot\scss\bootstrap\NewFolder\**" />
+    <EmbeddedResource Remove="wwwroot\scss\bootstrap\NewFolder\**" />
+    <None Remove="wwwroot\scss\bootstrap\NewFolder\**" />
+  </ItemGroup>
+
+</Project>
