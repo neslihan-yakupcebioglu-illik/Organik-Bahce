@@ -8,7 +8,9 @@ namespace e_Ticaret.Mvc.Controllers
         {
             return View();
         }
-        public IActionResult Details()
+
+        [HttpGet("order/{id:int}/details")]
+        public IActionResult Details(int id)
         {
             return View();
         }

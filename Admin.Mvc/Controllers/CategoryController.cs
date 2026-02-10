@@ -8,6 +8,8 @@ namespace Admin.Mvc.Controllers
         {
             return View();
         }
+
+        [HttpGet("category/{id:int}/edit")]
         public IActionResult Edit()
         {
             return View();
