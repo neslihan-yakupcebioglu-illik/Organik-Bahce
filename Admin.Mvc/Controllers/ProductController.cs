@@ -4,8 +4,9 @@ namespace Admin.Mvc.Controllers
 {
     public class ProductController : Controller
     {
-        public IActionResult Delete()
+        public IActionResult Delete(int id)
         {
+            ViewBag.Id = id;
             return View();
         }
     }

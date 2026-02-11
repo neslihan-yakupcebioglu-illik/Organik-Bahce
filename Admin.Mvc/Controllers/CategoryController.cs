@@ -8,16 +8,15 @@ namespace Admin.Mvc.Controllers
         {
             return View();
         }
-
-        [HttpGet("category/{id:int}/edit")]
-        public IActionResult Edit()
+        public IActionResult Edit(int id)
         {
+            ViewBag.Id = id;
             return View();
         }
-        public IActionResult Delete()
+        public IActionResult Delete(int id)
         {
+            ViewBag.Id = id;
             return View();
         }
-     
     }
 }

@@ -9,9 +9,10 @@ namespace Admin.Mvc.Controllers
             return View();
         }
 
-        public IActionResult Approve()
+        public IActionResult Approve(int id)
         {
-            return View();
+            TempData["Success"] = $"Kullanıcı #{id} için satıcı onayı verildi .";
+            return RedirectToAction("List", "User");
         }
     }
 }

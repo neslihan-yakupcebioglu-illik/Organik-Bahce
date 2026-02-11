@@ -8,9 +8,9 @@ namespace Admin.Mvc.Controllers
         {
             return View();
         }
-
-        public IActionResult Approve()
+        public IActionResult Approve(int id)
         {
+            ViewBag.Id = id;
             return View();
         }
     }
